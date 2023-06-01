@@ -1,11 +1,19 @@
-num_nodes: 3
+num_nodes: 6
 min_neighbors: 1
 max_neighbors: 3
 resources:
 	n1: r1, r2, r3
 	n2: r4, r5
     n3:r6,r7
+	n4:r8
+	n5:r9
+	n6:r10
 edges:
 	n1, n2
 	n1, n3
-	n2, n3
+	n2, n4
+	n3,n4
+	n4,n5
+	n4,n6
+	n5,n2
+	n6,n3
